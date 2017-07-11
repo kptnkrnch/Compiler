@@ -1,0 +1,5 @@
+exec {
+	const x := [1.23, 2.562, 3.3698, 4.1478].
+	const y := clone x.
+	print y.
+}

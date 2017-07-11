@@ -1,0 +1,4 @@
+exec {
+	const x := [1890|char].
+	print x, _n_.
+}

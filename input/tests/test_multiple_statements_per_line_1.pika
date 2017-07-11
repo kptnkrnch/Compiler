@@ -1,0 +1,5 @@
+exec {
+	const quarters :=  18.const nnickels := quarters * 25 / 5.
+	print nnickels, _n_.
+}
+#sfjldsjflsdj

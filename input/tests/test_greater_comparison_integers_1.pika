@@ -1,0 +1,4 @@
+exec {
+	const hw :=  5 == 5.
+	print hw, _n_.
+}

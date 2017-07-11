@@ -1,0 +1,7 @@
+exec {
+	const x := "abc".
+	const y := "abc".
+	const z := "abcd".
+	
+	print x; y; z;.
+}

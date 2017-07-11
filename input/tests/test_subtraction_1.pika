@@ -1,0 +1,7 @@
+exec {
+	const classseats :=  81.
+	const students := 77.
+    
+	const remainder := classseats - students.
+	print remainder, _n_.
+}

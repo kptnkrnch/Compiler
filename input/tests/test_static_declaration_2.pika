@@ -1,0 +1,26 @@
+func increment <> -> void {
+	static var i := 0.
+	i := i + 1.
+	print i, _n_.
+	return.
+}
+
+func increment2 <> -> void {
+	static var i := 0.
+	i := i + 1.
+	print i, _n_.
+	return.
+}
+
+exec {
+	var i := 0.
+	while (i < 5) {
+		call increment().
+		i := i + 1.
+	}
+	i := 0.
+	while (i < 5) {
+		call increment2().
+		i := i + 1.
+	}
+}

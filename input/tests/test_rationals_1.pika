@@ -1,0 +1,4 @@
+exec {
+	const x := 20 // 60.
+	print x.
+}

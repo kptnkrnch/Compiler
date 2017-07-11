@@ -1,0 +1,8 @@
+
+exec {
+	var hello := <int number> -> int {
+		print number, _n_.
+		return number + 5.
+	}.
+	print hello(7).
+}

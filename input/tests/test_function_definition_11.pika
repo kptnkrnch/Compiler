@@ -1,0 +1,23 @@
+func hello <rat a, rat b> -> void {
+	print a, _n_.
+	print b, _n_.
+	call hello2(a, b).
+	return.
+}
+
+func hello2 <rat a, rat b> -> void {
+	print a + (1 // 7), _n_.
+	print b + (2 // 7), _n_.
+	call hello3(a, b).
+	return.
+}
+
+func hello3 <rat a, rat b> -> void {
+	print a + (1 // 13), _n_.
+	print b + (2 // 11), _n_.
+	return.
+}
+
+exec {
+	call hello(1 // 2, 3 // 4).
+}

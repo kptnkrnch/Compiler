@@ -1,0 +1,26 @@
+func fin< int a, int b > -> int {
+	return pax(5*a, b) . # legal : can reference pax before its definition.
+}
+func pax< int a, int b > -> int {
+	if (a < b ) {
+		return a .
+	}
+	return b + pax(a, 3*b) . # legal : recursion is okay.
+}
+func pax< float a, float b > -> float { # illegal : overloading is not okay.
+	if (a < b ) {
+		return a .
+	}
+	return b + pax(a, 3*b) . # legal, if this were a legal function : recursion is okay.
+}
+exec {
+	const a := 11.
+	const b := 14.
+	const c := 16.
+	if( a > 5) {
+		const m := pax(a, b). # legal
+		const pax := pax(a, b). # also legal but bad practice
+		# in here, the functions called pax is shadowed and may not be used
+	}
+	const x := pax(a, b). # legal to use the function pax again.
+}

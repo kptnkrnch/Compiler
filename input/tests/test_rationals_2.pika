@@ -1,0 +1,4 @@
+exec {
+	const x := 60 // 27.
+	print x.
+}

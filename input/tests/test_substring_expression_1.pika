@@ -1,0 +1,6 @@
+exec {
+	const hello := "hello world".
+	const hello2 := hello[0, 4].
+	print hello, _n_.
+	print hello2, _n_.
+}

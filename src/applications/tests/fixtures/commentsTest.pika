@@ -1,0 +1,17 @@
+#Helloworld# exec {
+	const quarters :=  6.
+	const#Here's another comment#  dimes    :=  3.
+#...#	const nickels  :=  7. #if I had a nickel...
+	const pennies  := 17.
+    
+	const value := quarters * 25 + #so many comments
+    			 dimes    * 10 + #that should be ignored
+    			 nickels  *  5 + #Unit tests for the win!#
+    			 pennies.
+#here are multiple comments#	print #between# value#other#,#tokens# _n_.
+    
+	const ncoins := quarters + dimes + nickels + pennies.
+
+	const boot := _true_.
+	const boof := _false_.
+#This is a comments test#}#Comments should be ignored

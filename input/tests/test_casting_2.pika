@@ -1,0 +1,4 @@
+exec {
+	const x := [^a^|int].
+	print x, _n_.
+}

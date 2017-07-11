@@ -1,0 +1,6 @@
+Starting loop
+X -  1
+X -  4
+X -  16
+X -  25
+Finished loop

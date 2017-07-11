@@ -1,0 +1,4 @@
+exec {
+	const x := "hello world".
+	print length x.
+}

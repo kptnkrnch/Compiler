@@ -1,0 +1,5 @@
+exec {
+	const x := [^a^|bool].
+	const y := [[0|char]|bool].
+	print x; y, _n_.
+}

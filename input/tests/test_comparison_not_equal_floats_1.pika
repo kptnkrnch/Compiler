@@ -1,0 +1,5 @@
+exec {
+	const hw :=  5.00001 != 5.00001.
+	const hw2 :=  5.00001 != 5.0001.
+	print hw; hw2; _n_.
+}

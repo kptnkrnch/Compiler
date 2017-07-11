@@ -1,0 +1,11 @@
+exec {
+	const x := [1, 2, 3, 4, 5].
+	print "Starting loop", _n_.
+	for elem item of x {
+		if (item == 3) {
+			break.
+		}
+		print "X - "; (item * item), _n_.
+	}
+	print "Finished loop".
+}

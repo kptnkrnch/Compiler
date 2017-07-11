@@ -1,0 +1,9 @@
+exec {
+	var x := 1.
+	print "Starting loop", _n_.
+	while (x <= 10) {
+		print "X - "; x, _n_.
+		x := x + 1.
+	}
+	print "Finished loop".
+}

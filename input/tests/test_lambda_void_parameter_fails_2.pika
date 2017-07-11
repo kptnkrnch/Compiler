@@ -1,0 +1,6 @@
+exec {
+	var hello2 := <void z> -> string {
+		return "goodbye world".
+	}.
+	print "Shouldn't be here...".
+}

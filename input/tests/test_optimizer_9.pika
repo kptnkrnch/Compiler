@@ -1,0 +1,8 @@
+exec {
+	const x := [10|float].
+	const y := [31.751|int].
+	const z := [[23.1549|int]|float].
+	const p := [[17.1173|int]|float] + 0.1173.
+	
+	print x; y; z; p;.
+}

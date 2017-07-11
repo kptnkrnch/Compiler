@@ -1,0 +1,7 @@
+func hello <string word> -> string {
+	print "hello"; word.
+}
+
+exec {
+	call hello("world").
+}

@@ -1,0 +1,7 @@
+exec {
+	var numbers := [^a^, ^y^, ^z^, ^b^, ^d^].
+	var isOdd := <char x>->bool { return (x == ^a^ || x == ^b^ || x == ^c^).}.
+	var isLesser98 := <char x>->bool { return [x | int] < 98.}.
+	var results := numbers reduce isOdd reduce isLesser98.
+	print results.
+}

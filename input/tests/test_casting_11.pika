@@ -1,0 +1,4 @@
+exec {
+	const a := [45|rat].
+	print a.
+}

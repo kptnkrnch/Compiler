@@ -1,0 +1,6 @@
+exec {
+	const hw :=  5 < 5.
+	const hw2 :=  6 < 5.
+	const hw3 :=  4 < 5.
+	print hw; hw2; hw3; _n_.
+}

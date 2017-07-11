@@ -1,0 +1,6 @@
+exec {
+	if (_true_ || _false_) {
+		print "Success";.
+	}
+	print "Made it here";.
+}

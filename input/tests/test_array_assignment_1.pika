@@ -1,0 +1,7 @@
+exec {
+	const intArray := [1, 2, 3, 5].
+	const charArray := [^a^, ^z^].
+	
+	var R := intArray.
+	R := charArray.
+}

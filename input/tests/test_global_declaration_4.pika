@@ -1,0 +1,10 @@
+func hello <> -> void {
+	print "hello"; x.
+	return.
+}
+
+const x := "world".
+
+exec {
+	call hello().
+}

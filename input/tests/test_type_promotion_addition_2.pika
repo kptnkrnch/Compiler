@@ -1,0 +1,7 @@
+exec {
+	const pizzaSlices := [5 | char].
+	const newPizzaSlices := [12 | char].
+    
+	const total := pizzaSlices + newPizzaSlices.
+	print total, _n_.
+}

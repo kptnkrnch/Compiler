@@ -1,0 +1,6 @@
+exec {
+	call <string word1, string word2> -> void {
+		print word1; word2, _n_.
+		return.
+	}("hello", "world").
+}

@@ -1,0 +1,5 @@
+const x := 7.
+
+exec {
+	print x.
+}

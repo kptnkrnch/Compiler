@@ -1,0 +1,7 @@
+exec {
+	const x := "Yello World!".
+	const y := "Yello World!".
+	const z := "Yello World".
+	
+	print x; y; z;.
+}

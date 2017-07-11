@@ -1,0 +1,4 @@
+exec {
+	var i := -1.
+	continue.
+}

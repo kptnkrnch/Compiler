@@ -1,0 +1,4 @@
+exec {
+	const a := [7 // 23|void].
+	print a.
+}

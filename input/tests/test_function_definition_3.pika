@@ -1,0 +1,11 @@
+func hello <int recursive> -> void {
+	print recursive, _n_.
+	if (recursive < 5) {
+		call hello(recursive + 1).
+	}
+	return.
+}
+
+exec {
+	call hello(0).
+}

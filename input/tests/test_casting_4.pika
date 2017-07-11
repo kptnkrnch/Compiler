@@ -1,0 +1,6 @@
+exec {
+	const x := [0|bool].
+	const y := [90|bool].
+	const z := [-76|bool].
+	print x; y; z, _n_.
+}

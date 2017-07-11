@@ -1,0 +1,8 @@
+exec {
+	const a := [1|int].
+	const b := [^a^|char].
+	const x := [1.56|float].
+	const y := ["Hello World!"|string].
+	const z := [_true_|bool].
+	print a; b; x; y; z, _n_.
+}

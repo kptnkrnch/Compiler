@@ -1,0 +1,14 @@
+func hello <string name> -> void {
+	const temp := 0.
+	print "hello"; name,_n_.
+	print hello2(), _n_.
+	return.
+}
+
+func hello2 <> -> string {
+	return "goodbye world".
+}
+
+exec {
+	call hello("world").
+}

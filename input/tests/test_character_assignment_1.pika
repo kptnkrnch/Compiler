@@ -1,0 +1,4 @@
+exec {
+	const hw :=  ^A^.
+	print hw, _n_.
+}

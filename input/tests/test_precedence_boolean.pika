@@ -1,0 +1,4 @@
+exec {
+	var result := 4 + 3 * 5 > 6 + 2 + 3 * 7.
+	print result.
+}

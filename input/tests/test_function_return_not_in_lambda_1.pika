@@ -1,0 +1,9 @@
+func hello <string word> -> string {
+	print "hello"; word.
+	return word.
+}
+
+exec {
+	call hello("world").
+	return.
+}

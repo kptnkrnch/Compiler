@@ -1,0 +1,6 @@
+exec {
+	var numbers := [^a^, ^y^, ^z^, ^b^, ^d^].
+	var isOdd := <char x>->bool { return (x == ^a^ || x == ^b^ || x == ^c^).}.
+	var oddities := numbers reduce isOdd.
+	print oddities.
+}

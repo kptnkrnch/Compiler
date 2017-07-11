@@ -1,0 +1,4 @@
+exec {
+	const a := [85 // 23|int].
+	print a.
+}

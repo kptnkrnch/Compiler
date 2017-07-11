@@ -1,0 +1,6 @@
+exec {
+	var x := "hello world".
+	print x, _n_.
+	x := "goodbye world".
+	print x, _n_.
+}

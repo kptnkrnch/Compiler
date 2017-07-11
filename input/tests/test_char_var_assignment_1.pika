@@ -1,0 +1,6 @@
+exec {
+	var x := ^T^.
+	print x, _n_.
+	x := ^V^.
+	print x, _n_.
+}

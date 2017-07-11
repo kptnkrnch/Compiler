@@ -1,0 +1,4 @@
+exec {
+	const f := +.03.
+	print f, _n_.
+}

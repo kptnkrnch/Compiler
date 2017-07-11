@@ -1,0 +1,4 @@
+exec {
+	var i := 0.
+	break.
+}

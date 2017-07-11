@@ -1,0 +1,4 @@
+exec {
+	const hw :=  "Hello World!".
+	const hw2 :=  "Hello World2!".
+}

@@ -1,0 +1,4 @@
+exec {
+	const x := [_true_, _false_, _false_, _true_].
+	print x.
+}

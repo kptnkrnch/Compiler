@@ -1,0 +1,4 @@
+exec {
+	const x := 7 * (5 * (1 - 1) + 4).
+	print x, _n_.
+}

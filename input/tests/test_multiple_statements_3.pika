@@ -1,0 +1,10 @@
+exec {
+	const x := [5, 6, 7, 8, 1, 2, 3, 4].
+	const reducer := <int a>->bool { return a < 5. }.
+	const converter := <int a>->int { return a + 3. }.
+	const product := <int a, int b>->int { return a*b. }.
+	const adder := <int a, int b>->int { return a+b. }.
+	const z := [11, 12, 13, 14].
+	const result := zip z, x reduce reducer map converter, adder fold product * 2.
+	print result, _n_.
+}

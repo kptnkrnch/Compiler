@@ -1,0 +1,17 @@
+func sub <string word> -> string {
+	print "hello";.
+	return word.
+}
+
+func root <string word> -> <string> -> string {
+	print word;.
+	var sub := <string word> -> string {
+		print "hello";.
+		return word.
+	}.
+	return sub.
+}
+
+exec {
+	print root("yolo")("world").
+}

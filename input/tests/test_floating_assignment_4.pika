@@ -1,0 +1,4 @@
+exec {
+	const f := 8.03E001.
+	print f, _n_.
+}

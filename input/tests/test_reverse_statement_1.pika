@@ -1,0 +1,5 @@
+exec {
+	const hello := "Hello World!".
+	const olleh := reverse hello.
+	print olleh.
+}

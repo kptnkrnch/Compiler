@@ -1,0 +1,8 @@
+exec {
+	if (_true_) {
+		print "Success";.
+	} else {
+		print "Should not be here...";.
+	}
+	print "Made it here";.
+}

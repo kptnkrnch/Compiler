@@ -1,0 +1,8 @@
+exec {
+	const quarters :=  18.0 * 25.0.
+	{
+		const nickels := 5.0.
+		print nickels, _n_.
+	}
+	const total := quarters - nickels.
+}

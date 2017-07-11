@@ -1,0 +1,7 @@
+exec {
+	var x := 9.
+	const y := 452.
+	print x, _n_.
+	x := x + y.
+	print x, _n_.
+}

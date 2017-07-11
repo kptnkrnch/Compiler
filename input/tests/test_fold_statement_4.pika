@@ -1,0 +1,10 @@
+exec {
+	var numbers := [13].
+	
+	var multiplier := <int a, int b> -> int {
+		return a * b.
+	}.
+	
+	var result := numbers fold multiplier.
+	print result.
+}

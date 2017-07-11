@@ -1,0 +1,6 @@
+exec {
+	const hw :=  ^a^ < ^b^.
+	const hw2 :=  ^b^ < ^a^.
+	const hw3 :=  ^A^ < ^a^.
+	print hw; hw2; hw3; _n_.
+}

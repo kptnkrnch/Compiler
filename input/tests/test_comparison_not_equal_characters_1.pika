@@ -1,0 +1,5 @@
+exec {
+	const hw :=  ^a^ != ^a^.
+	const hw2 :=  ^a^ != ^b^.
+	print hw; hw2; _n_.
+}

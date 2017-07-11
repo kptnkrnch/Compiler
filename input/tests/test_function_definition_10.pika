@@ -1,0 +1,8 @@
+func hello <rat a> -> void {
+	print a, _n_.
+	return.
+}
+
+exec {
+	call hello(1 // 2).
+}

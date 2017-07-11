@@ -1,0 +1,13 @@
+exec {
+	const x := [1, 2, 3, 4, 5].
+	const x2 := [5, 4, 3, 2, 1].
+	print "Starting loop", _n_.
+	for elem item of x {
+		for elem item2 of x2 {
+			if (item == item2) {
+				print "X - "; (item * item2), _n_.
+			}
+		}
+	}
+	print "Finished loop".
+}

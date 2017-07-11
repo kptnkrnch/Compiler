@@ -1,0 +1,4 @@
+exec {
+	const a := [^g^|rat].
+	print a.
+}

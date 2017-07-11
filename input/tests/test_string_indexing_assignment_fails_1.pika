@@ -1,0 +1,4 @@
+exec {
+	var hello := "hello world".
+	hello[4] := ^ ^.
+}

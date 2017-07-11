@@ -1,0 +1,7 @@
+exec {
+	const pizzaSlices := ^g^.
+	const newPizzaSlices := 12.12.
+    
+	const total := pizzaSlices * newPizzaSlices.
+	print total, _n_.
+}

@@ -1,0 +1,5 @@
+exec {
+	const hw :=  _true_ == _true_ == (5 > 4).
+	const hw2 :=  (23 >= 23) == _true_ == _false_.
+	print hw; hw2; _n_.
+}

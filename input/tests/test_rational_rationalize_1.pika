@@ -1,0 +1,4 @@
+exec {
+	const rational := 5.3 //// 9.
+	print rational, _n_.
+}

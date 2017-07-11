@@ -1,0 +1,16 @@
+exec {
+	var numbers := [1, 3, 5, 8, 11, 12].
+	var parityString := <int a> -> rat {
+		if ((a/2)*2 == a) {
+			return 2 // 2.
+		} else {
+			return 1 // 2.
+		}
+	}.
+	var ratToInt := <rat a> -> int {
+		return [a | int].
+	}.
+	var parities := numbers map parityString.
+	var temp := parities map ratToInt.
+	print parities, _n_.
+}

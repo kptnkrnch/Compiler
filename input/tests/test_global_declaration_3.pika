@@ -1,0 +1,6 @@
+const s := t + 4.
+const t := s - 4.
+
+exec {
+	print s.
+}

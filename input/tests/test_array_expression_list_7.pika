@@ -1,0 +1,6 @@
+exec {
+	const x := new [int](4).
+	var i := 3.
+	x[i] := i.
+	print x.
+}

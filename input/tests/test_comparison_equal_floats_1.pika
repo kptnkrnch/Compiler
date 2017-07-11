@@ -1,0 +1,5 @@
+exec {
+	const hw :=  5.01 == 5.01.
+	const hw2 :=  5.01 == 5.02.
+	print hw; hw2; _n_.
+}

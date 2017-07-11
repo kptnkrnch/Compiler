@@ -1,0 +1,29 @@
+func hello1 <string word1, string word2> -> void {
+	print word1; word2, _n_.
+	return.
+}
+
+func hello2 <string word1, string word2> -> void {
+	print word2; word1, _n_.
+	return.
+}
+
+exec {
+	var functions := new [<string, string> -> void](2).
+	functions[0] := <string word1, string word2> -> void {
+		print word1; word2, _n_.
+		return.
+	}.
+	functions[1] := <string word1, string word2> -> void {
+		print word2; word1, _n_.
+		return.
+	}.
+	const hello := "hello".
+	const world := "world".
+	print "Function Calls:", _n_.
+	call hello1(hello, world).
+	call hello2(hello, world).
+	print "Array of Lambda Calls:", _n_.
+	call functions[0](hello, world).
+	call functions[1](hello, world).
+}

@@ -1,0 +1,11 @@
+exec {
+	const x := [5, 6, 7, 8, 1, 2, 3, 4].
+	const reducer := <int a>->bool { return a < 5. }.
+	const converter := <int a>->float { return [a | float] + 0.3. }.
+	const product := <float a, float b>->float { return a*b. }.
+	const y := [1.3, 2.3, 3.3, 4.3].
+	const result := x reduce reducer map converter fold product.
+	const result2 := y fold product.
+	print result, _n_.
+	print result2.
+}

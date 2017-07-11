@@ -1,0 +1,6 @@
+exec {
+	var x := 9.0125.
+	print x, _n_.
+	x := 11.0321.
+	print x, _n_.
+}

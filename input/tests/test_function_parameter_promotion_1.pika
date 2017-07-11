@@ -1,0 +1,7 @@
+func hello <float number> -> float {
+	return number.
+}
+
+exec {
+	print hello(7).
+}

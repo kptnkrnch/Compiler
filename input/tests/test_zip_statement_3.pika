@@ -1,0 +1,11 @@
+exec {
+	var numbers := [1 // 2, 3 // 2, 5 // 2, 8 // 2, 11 // 2, 12 // 2].
+	var numbers2 := [5 // 3, 7 // 3, 3 // 3, 17 // 3, 13 // 3, 6 // 3].
+	
+	var adder := <rat a, rat b> -> float {
+		return [a * b | float].
+	}.
+	
+	var result := zip [1 // 2, 3 // 2, 5 // 2, 8 // 2, 11 // 2, 12 // 2], [5 // 3, 7 // 3, 3 // 3, 17 // 3, 13 // 3, 6 // 3], adder. 
+	print result.
+}

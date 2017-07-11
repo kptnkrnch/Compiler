@@ -1,0 +1,6 @@
+const x := y + 4.
+const y := 10.
+
+exec {
+	print x.
+}

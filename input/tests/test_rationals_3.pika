@@ -1,0 +1,4 @@
+exec {
+	const x := -40 // 13.
+	print x.
+}

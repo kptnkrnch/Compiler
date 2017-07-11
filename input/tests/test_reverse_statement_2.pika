@@ -1,0 +1,5 @@
+exec {
+	const numbers := [11, 3, 45, 8, 17, 13].
+	const reversed := reverse numbers.
+	print reversed.
+}

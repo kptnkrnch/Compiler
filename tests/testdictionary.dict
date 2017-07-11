@@ -1,0 +1,827 @@
+test: casting_1
+	test_casting_1
+	test_casting_expected_output_1.txt
+
+test: casting_2
+	test_casting_2
+	test_casting_expected_output_2.txt
+	
+test: casting_3
+	test_casting_3
+	test_casting_expected_output_3.txt
+	
+test: casting_4
+	test_casting_4
+	test_casting_expected_output_4.txt
+	
+test: casting_5
+	test_casting_5
+	test_casting_expected_output_5.txt
+	
+test: casting_6
+	test_casting_6
+	test_casting_expected_output_6.txt
+	
+test: casting_7
+	test_casting_7
+	test_casting_expected_output_7.txt
+	
+test: casting_8
+	test_casting_8
+	test_casting_expected_output_8.txt
+	
+test: casting_9
+	test_casting_9
+	test_casting_expected_output_9.txt
+	
+test: casting_10
+	test_casting_10
+	test_casting_expected_output_10.txt
+	
+test: casting_11
+	test_casting_11
+	test_casting_expected_output_11.txt
+	
+test: casting_12
+	test_casting_12
+	test_casting_expected_output_12.txt
+	
+test: casting_13
+	test_casting_13
+	test_casting_expected_output_13.txt
+
+test: character_assignment_1
+	test_character_assignment_1
+	test_character_assignment_expected_output_1.txt
+	
+test: comparison_equal_booleans_1
+	test_comparison_equal_booleans_1
+	test_comparison_equal_booleans_expected_output_1.txt
+	
+test: comparison_equal_characters_1
+	test_comparison_equal_characters_1
+	test_comparison_equal_characters_expected_output_1.txt
+	
+test: comparison_equal_floats_1
+	test_comparison_equal_floats_1
+	test_comparison_equal_floats_expected_output_1.txt
+	
+test: comparison_equal_rationals_1
+	test_comparison_equal_rationals_1
+	test_comparison_equal_rationals_expected_output_1.txt
+	
+test: comparison_equal_integers_1
+	test_comparison_equal_integers_1
+	test_comparison_equal_integers_expected_output_1.txt
+	
+test: comparison_greater_characters_1
+	test_comparison_greater_characters_1
+	test_comparison_greater_characters_expected_output_1.txt
+	
+test: comparison_greater_floats_1
+	test_comparison_greater_floats_1
+	test_comparison_greater_floats_expected_output_1.txt
+	
+test: comparison_greater_rationals_1
+	test_comparison_greater_rationals_1
+	test_comparison_greater_rationals_expected_output_1.txt
+	
+test: comparison_greater_integers_1
+	test_comparison_greater_integers_1
+	test_comparison_greater_integers_expected_output_1.txt
+	
+test: comparison_greater_equal_characters_1
+	test_comparison_greater_equal_characters_1
+	test_comparison_greater_equal_characters_expected_output_1.txt
+	
+test: comparison_greater_equal_floats_1
+	test_comparison_greater_equal_floats_1
+	test_comparison_greater_equal_floats_expected_output_1.txt
+	
+test: comparison_greater_equal_rationals_1
+	test_comparison_greater_equal_rationals_1
+	test_comparison_greater_equal_rationals_expected_output_1.txt
+	
+test: comparison_greater_equal_integers_1
+	test_comparison_greater_equal_integers_1
+	test_comparison_greater_equal_integers_expected_output_1.txt
+	
+test: comparison_lesser_characters_1
+	test_comparison_lesser_characters_1
+	test_comparison_lesser_characters_expected_output_1.txt
+	
+test: comparison_lesser_floats_1
+	test_comparison_lesser_floats_1
+	test_comparison_lesser_floats_expected_output_1.txt
+	
+test: comparison_lesser_rationals_1
+	test_comparison_lesser_rationals_1
+	test_comparison_lesser_rationals_expected_output_1.txt
+	
+test: comparison_lesser_integers_1
+	test_comparison_lesser_integers_1
+	test_comparison_lesser_integers_expected_output_1.txt
+	
+test: comparison_lesser_equal_characters_1
+	test_comparison_lesser_equal_characters_1
+	test_comparison_lesser_equal_characters_expected_output_1.txt
+	
+test: comparison_lesser_equal_floats_1
+	test_comparison_lesser_equal_floats_1
+	test_comparison_lesser_equal_floats_expected_output_1.txt
+	
+test: comparison_lesser_equal_rationals_1
+	test_comparison_lesser_equal_rationals_1
+	test_comparison_lesser_equal_rationals_expected_output_1.txt
+	
+test: comparison_lesser_equal_integers_1
+	test_comparison_lesser_equal_integers_1
+	test_comparison_lesser_equal_integers_expected_output_1.txt
+	
+test: comparison_not_equal_booleans_1
+	test_comparison_not_equal_booleans_1
+	test_comparison_not_equal_booleans_expected_output_1.txt
+	
+test: comparison_not_equal_characters_1
+	test_comparison_not_equal_characters_1
+	test_comparison_not_equal_characters_expected_output_1.txt
+	
+test: comparison_not_equal_floats_1
+	test_comparison_not_equal_floats_1
+	test_comparison_not_equal_floats_expected_output_1.txt
+	
+test: comparison_not_equal_rationals_1
+	test_comparison_not_equal_rationals_1
+	test_comparison_not_equal_rationals_expected_output_1.txt
+	
+test: comparison_not_equal_integers_1
+	test_comparison_not_equal_integers_1
+	test_comparison_not_equal_integers_expected_output_1.txt
+	
+test: division_1
+	test_division_1
+	test_division_expected_output_1.txt
+	
+test: division_2
+	test_division_2
+	test_division_expected_output_2.txt
+	
+test: floating_assignment_1
+	test_floating_assignment_1
+	test_floating_assignment_expected_output_1.txt
+	
+test: floating_assignment_2
+	test_floating_assignment_2
+	test_floating_assignment_expected_output_2.txt
+	
+test: floating_assignment_3
+	test_floating_assignment_3
+	test_floating_assignment_expected_output_3.txt
+	
+test: floating_assignment_4
+	test_floating_assignment_4
+	test_floating_assignment_expected_output_4.txt
+	
+test: floating_assignment_5
+	test_floating_assignment_5
+	test_floating_assignment_expected_output_5.txt
+	
+test: floating_assignment_6
+	test_floating_assignment_6
+	test_floating_assignment_expected_output_6.txt
+	
+test: floating_assignment_7
+	test_floating_assignment_7
+	test_floating_assignment_expected_output_7.txt
+	
+test: floating_assignment_8
+	test_floating_assignment_8
+	test_floating_assignment_expected_output_8.txt
+	
+test: floating_assignment_9
+	test_floating_assignment_9
+	test_floating_assignment_expected_output_9.txt
+	
+test: floating_assignment_10
+	test_floating_assignment_10
+	test_floating_assignment_expected_output_10.txt
+	
+test: floating_addition_1
+	test_floating_addition_1
+	test_floating_addition_expected_output_1.txt
+	
+test: floating_subtraction_1
+	test_floating_subtraction_1
+	test_floating_subtraction_expected_output_1.txt
+	
+test: floating_multiplication_1
+	test_floating_multiplication_1
+	test_floating_multiplication_expected_output_1.txt
+	
+test: floating_division_1
+	test_floating_division_1
+	test_floating_division_expected_output_1.txt
+	
+test: int_var_assignment_1
+	test_int_var_assignment_1
+	test_int_var_assignment_expected_output_1.txt
+	
+test: int_var_assignment_2
+	test_int_var_assignment_2
+	test_int_var_assignment_expected_output_2.txt
+	
+test: bool_var_assignment_1
+	test_bool_var_assignment_1
+	test_bool_var_assignment_expected_output_1.txt
+	
+test: char_var_assignment_1
+	test_char_var_assignment_1
+	test_char_var_assignment_expected_output_1.txt
+	
+test: float_var_assignment_1
+	test_float_var_assignment_1
+	test_float_var_assignment_expected_output_1.txt
+	
+test: string_var_assignment_1
+	test_string_var_assignment_1
+	test_string_var_assignment_expected_output_1.txt
+	
+test: multiple_statements_per_line_1
+	test_multiple_statements_per_line_1
+	test_multiple_statements_per_line_expected_output_1.txt
+	
+test: optimizer_1
+	test_optimizer_1
+	test_optimizer_expected_output_1.txt
+	
+test: optimizer_2
+	test_optimizer_2
+	test_optimizer_expected_output_2.txt
+	
+test: optimizer_3
+	test_optimizer_3
+	test_optimizer_expected_output_3.txt
+	
+test: optimizer_4
+	test_optimizer_4
+	test_optimizer_expected_output_4.txt
+	
+test: optimizer_5
+	test_optimizer_5
+	test_optimizer_expected_output_5.txt
+	
+test: optimizer_6
+	test_optimizer_6
+	test_optimizer_expected_output_6.txt
+	
+test: optimizer_7
+	test_optimizer_7
+	test_optimizer_expected_output_7.txt
+	
+test: optimizer_8
+	test_optimizer_8
+	test_optimizer_expected_output_8.txt
+	
+test: optimizer_9
+	test_optimizer_9
+	test_optimizer_expected_output_9.txt
+	
+test: parentheses_1
+	test_parentheses_1
+	test_parentheses_expected_output_1.txt
+	
+test: printing_tabs_1
+	test_printing_tabs_1
+	test_printing_tabs_expected_output_1.txt
+	
+test: scope_levels_2
+	test_scope_levels_2
+	test_scope_levels_expected_output_2.txt
+	
+test: string_assignment_1
+	test_string_assignment_1
+	test_string_assignment_expected_output_1.txt
+	
+test: string_assignment_2
+	test_string_assignment_2
+	test_string_assignment_expected_output_2.txt
+	
+test: subtraction_1
+	test_subtraction_1
+	test_subtraction_expected_output_1.txt
+	
+test: integer_arithmetic_chaining_1
+	test_integer_arithmetic_chaining_1
+	test_integer_arithmetic_chaining_expected_output_1.txt
+	
+test: comparison_equal_chaining_1
+	test_comparison_equal_chaining_1
+	test_comparison_equal_chaining_expected_output_1.txt
+	
+test: if_statement_1
+	test_if_statement_1
+	test_if_statement_expected_output_1.txt
+	
+test: if_statement_2
+	test_if_statement_2
+	test_if_statement_expected_output_2.txt
+	
+test: if_statement_3
+	test_if_statement_3
+	test_if_statement_expected_output_3.txt
+	
+test: if_statement_4
+	test_if_statement_4
+	test_if_statement_expected_output_4.txt
+	
+test: if_statement_5
+	test_if_statement_5
+	test_if_statement_expected_output_5.txt
+	
+test: if_statement_6
+	test_if_statement_6
+	test_if_statement_expected_output_6.txt
+	
+test: if_statement_7
+	test_if_statement_7
+	test_if_statement_expected_output_7.txt
+	
+test: if_statement_8
+	test_if_statement_8
+	test_if_statement_expected_output_8.txt
+	
+test: if_statement_9
+	test_if_statement_9
+	test_if_statement_expected_output_9.txt
+	
+test: if_statement_10
+	test_if_statement_10
+	test_if_statement_expected_output_10.txt
+	
+test: if_statement_11
+	test_if_statement_11
+	test_if_statement_expected_output_11.txt
+	
+test: if_statement_12
+	test_if_statement_12
+	test_if_statement_expected_output_12.txt
+	
+test: if_statement_13
+	test_if_statement_13
+	test_if_statement_expected_output_13.txt
+	
+test: not_statement_1
+	test_not_statement_1
+	test_not_statement_expected_output_1.txt
+	
+test: not_statement_2
+	test_not_statement_2
+	test_not_statement_expected_output_2.txt
+	
+test: not_statement_3
+	test_not_statement_3
+	test_not_statement_expected_output_3.txt
+	
+test: not_statement_4
+	test_not_statement_4
+	test_not_statement_expected_output_4.txt
+	
+test: not_statement_5
+	test_not_statement_5
+	test_not_statement_expected_output_5.txt
+	
+test: not_statement_6
+	test_not_statement_6
+	test_not_statement_expected_output_6.txt
+	
+test: else_statement_1
+	test_else_statement_1
+	test_else_statement_expected_output_1.txt
+	
+test: else_statement_2
+	test_else_statement_2
+	test_else_statement_expected_output_2.txt
+	
+test: while_statement_1
+	test_while_statement_1
+	test_while_statement_expected_output_1.txt
+	
+test: array_expression_list_1
+	test_array_expression_list_1
+	test_array_expression_list_expected_output_1.txt
+	
+test: array_expression_list_2
+	test_array_expression_list_2
+	test_array_expression_list_expected_output_2.txt
+	
+test: array_expression_list_3
+	test_array_expression_list_3
+	test_array_expression_list_expected_output_3.txt
+	
+test: array_expression_list_4
+	test_array_expression_list_4
+	test_array_expression_list_expected_output_4.txt
+	
+test: array_expression_list_5
+	test_array_expression_list_5
+	test_array_expression_list_expected_output_5.txt
+	
+test: array_expression_list_6
+	test_array_expression_list_6
+	test_array_expression_list_expected_output_6.txt
+	
+test: array_expression_list_7
+	test_array_expression_list_7
+	test_array_expression_list_expected_output_7.txt
+	
+test: array_expression_list_10
+	test_array_expression_list_10
+	test_array_expression_list_expected_output_10.txt
+	
+test: array_expression_list_11
+	test_array_expression_list_11
+	test_array_expression_list_expected_output_11.txt
+	
+test: array_expression_list_12
+	test_array_expression_list_12
+	test_array_expression_list_expected_output_12.txt
+	
+test: array_expression_list_13
+	test_array_expression_list_13
+	test_array_expression_list_expected_output_13.txt
+	
+test: array_expression_list_14
+	test_array_expression_list_14
+	test_array_expression_list_expected_output_14.txt
+	
+test: rationals_1
+	test_rationals_1
+	test_rationals_expected_output_1.txt
+	
+test: rationals_2
+	test_rationals_2
+	test_rationals_expected_output_2.txt
+	
+test: rationals_3
+	test_rationals_3
+	test_rationals_expected_output_3.txt
+	
+test: rational_addition_1
+	test_rational_addition_1
+	test_rational_addition_expected_output_1.txt
+	
+test: rational_division_1
+	test_rational_division_1
+	test_rational_division_expected_output_1.txt
+	
+test: rational_multiplication_1
+	test_rational_multiplication_1
+	test_rational_multiplication_expected_output_1.txt
+	
+test: rational_subtraction_1
+	test_rational_subtraction_1
+	test_rational_subtraction_expected_output_1.txt
+	
+test: array_clone_1
+	test_array_clone_1
+	test_array_clone_expected_output_1.txt
+	
+test: array_clone_2
+	test_array_clone_2
+	test_array_clone_expected_output_2.txt
+	
+test: array_clone_3
+	test_array_clone_3
+	test_array_clone_expected_output_3.txt
+	
+test: index_operator_1
+	test_index_operator_1
+	test_index_operator_expected_output_1.txt
+	
+test: index_operator_2
+	test_index_operator_2
+	test_index_operator_expected_output_2.txt
+	
+test: index_operator_3
+	test_index_operator_3
+	test_index_operator_expected_output_3.txt
+	
+test: index_operator_4
+	test_index_operator_4
+	test_index_operator_expected_output_4.txt
+	
+test: index_operator_5
+	test_index_operator_5
+	test_index_operator_expected_output_5.txt
+	
+test: index_operator_6 expectFail
+	test_index_operator_6
+	test_index_operator_expected_output_6.txt
+	
+test: type_promotion_addition_1
+	test_type_promotion_addition_1
+	test_type_promotion_addition_expected_output_1.txt
+	
+test: type_promotion_addition_2
+	test_type_promotion_addition_2
+	test_type_promotion_addition_expected_output_2.txt
+	
+test: type_promotion_addition_3
+	test_type_promotion_addition_3
+	test_type_promotion_addition_expected_output_3.txt
+
+test: type_promotion_assignment_1
+	test_type_promotion_assignment_1
+	test_type_promotion_assignment_expected_output_1.txt
+	
+test: type_promotion_division_1
+	test_type_promotion_division_1
+	test_type_promotion_division_expected_output_1.txt
+	
+test: type_promotion_multiplication_1
+	test_type_promotion_multiplication_1
+	test_type_promotion_multiplication_expected_output_1.txt
+	
+test: type_promotion_subtraction_1
+	test_type_promotion_subtraction_1
+	test_type_promotion_subtraction_expected_output_1.txt
+	
+test: type_promotion_express_over_1 expectFail
+	test_type_promotion_express_over_1
+	test_type_promotion_express_over_expected_output_1.txt
+	
+test: test_function_definition_1
+	test_function_definition_1
+	test_function_definition_expected_output_1.txt
+	
+test: test_function_definition_2
+	test_function_definition_2
+	test_function_definition_expected_output_2.txt
+	
+test: test_function_definition_3
+	test_function_definition_3
+	test_function_definition_expected_output_3.txt
+	
+test: test_function_definition_4
+	test_function_definition_4
+	test_function_definition_expected_output_4.txt
+	
+test: test_function_definition_5
+	test_function_definition_5
+	test_function_definition_expected_output_5.txt
+	
+test: test_function_definition_6 expectFail
+	test_function_definition_6
+	test_function_definition_expected_output_6.txt
+	
+test: test_function_definition_7
+	test_function_definition_7
+	test_function_definition_expected_output_7.txt
+	
+test: test_function_definition_8
+	test_function_definition_8
+	test_function_definition_expected_output_8.txt
+	
+test: test_function_definition_9
+	test_function_definition_9
+	test_function_definition_expected_output_9.txt
+	
+test: test_function_definition_10
+	test_function_definition_10
+	test_function_definition_expected_output_10.txt
+	
+test: test_function_definition_11
+	test_function_definition_11
+	test_function_definition_expected_output_11.txt
+	
+test: test_function_definition_12
+	test_function_definition_12
+	test_function_definition_expected_output_12.txt
+	
+test: test_function_definition_13
+	test_function_definition_13
+	test_function_definition_expected_output_13.txt
+	
+test: test_function_missing_return_1
+	test_function_missing_return_1
+	test_function_missing_return_expected_output_1.txt
+	
+test: test_function_parameter_promotion_1
+	test_function_parameter_promotion_1
+	test_function_parameter_promotion_expected_output_1.txt
+	
+test: test_function_parameter_promotion_2
+	test_function_parameter_promotion_2
+	test_function_parameter_promotion_expected_output_2.txt
+	
+test: test_function_parameter_promotion_fails_1 expectFail
+	test_function_parameter_promotion_fails_1
+	test_function_parameter_promotion_fails_expected_output_1.txt
+	
+test: test_function_return_promotion_1 expectFail
+	test_function_return_promotion_1
+	test_function_return_promotion_expected_output_1.txt
+	
+test: test_function_return_not_in_lambda_1 expectFail
+	test_function_return_not_in_lambda_1
+	test_function_return_not_in_lambda_expected_output_1.txt
+
+test: test_break_statement_1
+	test_break_statement_1
+	test_break_statement_expected_output_1.txt
+	
+test: test_break_statement_2
+	test_break_statement_2
+	test_break_statement_expected_output_2.txt
+	
+test: test_break_statement_not_in_loop_1 expectFail
+	test_break_statement_not_in_loop_1
+	test_break_statement_not_in_loop_expected_output_1.txt
+	
+test: test_continue_statement_1
+	test_continue_statement_1
+	test_continue_statement_expected_output_1.txt
+	
+test: test_continue_statement_2
+	test_continue_statement_2
+	test_continue_statement_expected_output_2.txt
+	
+test: test_continue_statement_not_in_loop_1 expectFail
+	test_continue_statemen_not_in_loopt_1
+	test_continue_statement_not_in_loop_expected_output_1.txt
+	
+test: test_map_statement_1
+	test_map_statement_1
+	test_map_statement_expected_output_1.txt
+	
+test: test_map_statement_2
+	test_map_statement_2
+	test_map_statement_expected_output_2.txt
+	
+test: test_map_statement_3
+	test_map_statement_3
+	test_map_statement_expected_output_3.txt
+	
+test: test_map_statement_4
+	test_map_statement_4
+	test_map_statement_expected_output_4.txt
+	
+test: test_map_statement_5
+	test_map_statement_5
+	test_map_statement_expected_output_5.txt
+	
+test: test_length_statement_1
+	test_length_statement_1
+	test_length_statement_expected_output_1.txt
+	
+test: test_global_declaration_1
+	test_global_declaration_1
+	test_global_declaration_expected_output_1.txt
+	
+test: test_global_declaration_2 expectFail
+	test_global_declaration_2
+	test_global_declaration_expected_output_2.txt
+	
+test: test_global_declaration_3 expectFail
+	test_global_declaration_3
+	test_global_declaration_expected_output_3.txt
+	
+test: test_global_declaration_4
+	test_global_declaration_4
+	test_global_declaration_expected_output_4.txt
+	
+test: test_char_string_concatenation_1
+	test_char_string_concatenation_1
+	test_char_string_concatenation_expected_output_1.txt
+	
+test: test_reduce_statement_1
+	test_reduce_statement_1
+	test_reduce_statement_expected_output_1.txt
+	
+test: test_reduce_statement_2
+	test_reduce_statement_2
+	test_reduce_statement_expected_output_2.txt
+	
+test: test_reduce_statement_3
+	test_reduce_statement_3
+	test_reduce_statement_expected_output_3.txt
+
+test: test_reduce_statement_4
+	test_reduce_statement_4
+	test_reduce_statement_expected_output_4.txt
+
+test: test_reverse_statement_1
+	test_reverse_statement_1
+	test_reverse_statement_expected_output_1.txt
+	
+test: test_reverse_statement_2
+	test_reverse_statement_2
+	test_reverse_statement_expected_output_2.txt
+	
+test: test_reverse_statement_3
+	test_reverse_statement_3
+	test_reverse_statement_expected_output_3.txt
+	
+test: test_reverse_statement_4
+	test_reverse_statement_4
+	test_reverse_statement_expected_output_4.txt
+	
+test: test_string_char_concatenation_1
+	test_string_char_concatenation_1
+	test_string_char_concatenation_expected_output_1.txt
+	
+test: test_string_string_concatenation_1
+	test_string_string_concatenation_1
+	test_string_string_concatenation_expected_output_1.txt
+	
+test: test_string_indexing_1
+	test_string_indexing_1
+	test_string_indexing_expected_output_1.txt
+
+test: test_string_indexing_assignment_fails_1 expectFail
+	test_string_indexing_assignment_fails_1
+	test_string_indexing_assignment_fails_expected_output_1.txt
+		
+test: test_index_operator_assignment_1
+	test_index_operator_assignment_1
+	test_index_operator_assignment_expected_output_1.txt
+	
+test: test_static_declaration_1
+	test_static_declaration_1
+	test_static_declaration_expected_output_1.txt
+	
+test: test_static_declaration_2
+	test_static_declaration_2
+	test_static_declaration_expected_output_2.txt
+	
+test: test_static_declaration_3
+	test_static_declaration_3
+	test_static_declaration_expected_output_3.txt
+	
+test: test_static_declaration_4
+	test_static_declaration_4
+	test_static_declaration_expected_output_4.txt
+	
+test: test_static_declaration_5
+	test_static_declaration_5
+	test_static_declaration_expected_output_5.txt
+	
+test: test_zip_statement_1
+	test_zip_statement_1
+	test_zip_statement_expected_output_1.txt
+	
+test: test_zip_statement_2
+	test_zip_statement_2
+	test_zip_statement_expected_output_2.txt
+	
+test: test_for_elem_statement_1
+	test_for_elem_statement_1
+	test_for_elem_statement_expected_output_1.txt
+	
+test: test_for_elem_statement_2
+	test_for_elem_statement_2
+	test_for_elem_statement_expected_output_2.txt
+	
+test: test_for_index_statement_1
+	test_for_index_statement_1
+	test_for_index_statement_expected_output_1.txt
+	
+test: test_fold_statement_1
+	test_fold_statement_1
+	test_fold_statement_expected_output_1.txt
+	
+test: test_fold_statement_2
+	test_fold_statement_2
+	test_fold_statement_expected_output_2.txt
+	
+test: test_fold_statement_3
+	test_fold_statement_3
+	test_fold_statement_expected_output_3.txt
+	
+test: test_fold_statement_4
+	test_fold_statement_4
+	test_fold_statement_expected_output_4.txt
+	
+test: test_fold_statement_5
+	test_fold_statement_5
+	test_fold_statement_expected_output_5.txt
+	
+test: test_lambda_void_parameter_fails_1 expectFail
+	test_lambda_void_parameter_fails_1
+	test_lambda_void_parameter_fails_expected_output_1.txt
+	
+test: test_lambda_void_parameter_fails_2 expectFail
+	test_lambda_void_parameter_fails_2
+	test_lambda_void_parameter_fails_expected_output_2.txt
+	
+test: test_lambda_void_parameter_fails_3 expectFail
+	test_lambda_void_parameter_fails_3
+	test_lambda_void_parameter_fails_expected_output_3.txt
+	
+test: test_lambda_void_parameter_fails_4 expectFail
+	test_lambda_void_parameter_fails_4
+	test_lambda_void_parameter_fails_expected_output_4.txt
+	
+test: test_multiple_statements_1
+	test_multiple_statements_1
+	test_multiple_statements_expected_output_1.txt

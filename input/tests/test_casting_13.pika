@@ -1,0 +1,6 @@
+exec {
+	const a := [43.256|rat].
+	const b := 43.256 //// 223092870.
+	print a, _n_.
+	print b, _n_.
+}

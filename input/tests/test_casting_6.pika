@@ -1,0 +1,4 @@
+exec {
+	const x := [89|float].
+	print x, _n_.
+}

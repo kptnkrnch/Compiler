@@ -1,0 +1,5 @@
+exec {
+	const hw :=  "Hello ".
+	const hw2 := "World!".
+	print hw + hw2, _n_.
+}

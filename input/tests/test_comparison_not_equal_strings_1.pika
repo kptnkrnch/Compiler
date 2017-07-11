@@ -1,0 +1,8 @@
+exec {
+	const string1 :=  "hello world".
+	const string2 := string1.
+	const string3 :=  "hello world!".
+	const hw :=  string1 != string2.
+	const hw2 :=  string1 != string3.
+	print hw; hw2; _n_.
+}

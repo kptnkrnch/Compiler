@@ -1,0 +1,11 @@
+func increment <> -> void {
+	static var i := 0.
+	i := i + 1.
+	print i, _n_.
+	return.
+}
+
+exec {
+	call increment().
+	call increment().
+}

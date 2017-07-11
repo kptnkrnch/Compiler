@@ -1,0 +1,5 @@
+exec {
+	const hw :=  _false_ != _false_.
+	const hw2 :=  _false_ != _true_.
+	print hw; hw2; _n_.
+}

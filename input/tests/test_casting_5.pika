@@ -1,0 +1,4 @@
+exec {
+	const x := [1.001|int].
+	print x, _n_.
+}

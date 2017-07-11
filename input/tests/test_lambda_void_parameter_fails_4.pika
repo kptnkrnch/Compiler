@@ -1,0 +1,7 @@
+func hello2 <[[void]] z> -> string {
+	return "goodbye world".
+}
+
+exec {
+	print "Shouldn't be here...".
+}

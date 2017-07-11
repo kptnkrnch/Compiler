@@ -1,0 +1,12 @@
+exec {
+	var numbers := [1 // 2, 1 // 3, 1 // 5, 1 // 8, 1 // 11, 1 // 12].
+	var parityString := <rat a> -> char {
+		if (a + (1 // 3) > (1 // 2)) {
+			return ^e^.
+		} else {
+			return ^o^.
+		}
+	}.
+	var parities := numbers map parityString.
+	print parities, _n_.
+}

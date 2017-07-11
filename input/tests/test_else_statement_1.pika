@@ -1,0 +1,8 @@
+exec {
+	if (_false_) {
+		print "Why am I here";.
+	} else {
+		print "Success";.
+	}
+	print "Made it here";.
+}

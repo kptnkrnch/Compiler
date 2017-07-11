@@ -1,0 +1,6 @@
+Function Calls:
+hello world
+world hello
+Array of Lambda Calls:
+hello world
+world hello
